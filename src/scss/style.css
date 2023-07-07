@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Text+Me+One&display=swap");
+body {
+  background-color: #1f203a;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #login {
+  display: flex;
+  width: 70%;
+  height: 80vh;
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.71);
+}
+main #login .left_side {
+  padding: 10px;
+  width: 40%;
+  height: 100%;
+  background-color: #fff;
+}
+main #login .left_side .choose_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 2px solid #1f203a;
+}
+main #login .left_side .choose_btn button {
+  width: 50%;
+  padding: 7px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+  color: #1f203a;
+  transition: 0.4s ease-in-out;
+}
+main #login .left_side .choose_btn button:hover {
+  border-left: 2px solid #fff;
+  border-bottom: 1px solid #1f203a;
+  background-color: #1f203a;
+  color: #fff;
+}
+main #login .left_side .choose_btn .activebtn {
+  border-left: 2px solid #fff;
+  border-bottom: 1px solid #1f203a;
+  background-color: #1f203a;
+  color: #fff;
+}
+main #login .left_side form {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main #login .left_side form label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1f203a;
+  padding: 7px 0;
+}
+main #login .left_side form input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #1f203a;
+  color: #1f203a;
+}
+main #login .left_side form input:focus {
+  outline: none;
+}
+main #login .left_side form button {
+  border-radius: 30px;
+  padding: 8px;
+  margin: 30px 0;
+  color: #1f203a;
+  font-size: 16px;
+  font-weight: 500;
+  border: 3px solid #1f203a;
+  transition: 0.3s ease-in-out;
+}
+main #login .left_side form button:hover {
+  border-bottom: 3px solid #1f203a;
+  background-color: #1f203a;
+  color: #fff;
+}
+main #login .right_side {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
